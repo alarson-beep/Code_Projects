@@ -22,9 +22,6 @@ body {
         0 0 1.5em #fff,            /* outer white */
         -.5em 0 3em #f0f,        /* outer left magenta */
         .5em 0 3em #0ff;         /* outer right cyan */
-        -webkit-animation: glow-S 1s ease-in-out infinite alternate;
-        -moz-animation: glow-S 1s ease-in-out infinite alternate;
-        animation: glow-S 1s ease-in-out infinite alternate;
 }
 .glow-text {
     padding-bottom: 50px;
@@ -46,13 +43,5 @@ body {
   }
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
-}
-/*@-webkit-keyframes glow-S {*/
-  from {
-    box-shadow: 0 0 1em #fff, 0 0 2em #fff, 0 0 3em #e60073, 0 0 4em #e60073, 0 0 5em #e60073, 0 0 6em #e60073, 0 0 7em #e60073;
-  }
-  to {
-    box-shadow: 0 0 2em #fff, 0 0 3em #ff4da6, 0 0 4em #ff4da6, 0 0 5em #ff4da6, 0 0 6em #ff4da6, 0 0 7em #ff4da6, 0 0 8em #ff4da6;
   }
 }
