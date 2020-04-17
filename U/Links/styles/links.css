@@ -9,7 +9,7 @@ html, body {
 
 .center {
   display: flex;
-  flex-flow column;
+  flex-flow row;
   align-items: center;
   Justify-content: center;
 }
