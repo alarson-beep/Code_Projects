@@ -10,7 +10,7 @@ html, body {
 .center {
   height: 100%;
   display: flex;
-  flex-flow: row;
+  flex-flow: column wrap;
   flex-wrap: wrap;
   align-items: center;
   Justify-content: center;
