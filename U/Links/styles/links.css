@@ -17,3 +17,7 @@ html, body {
 span {
   color: red;
 }
+
+#inline-img {
+  display: inline-block;
+}
