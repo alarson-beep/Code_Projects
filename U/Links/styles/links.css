@@ -16,8 +16,5 @@ html, body {
 
 .red {
   color: red;
-}
-
-#inline-img {
-  display: inline-block;
+  float:right;
 }
