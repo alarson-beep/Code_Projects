@@ -21,3 +21,8 @@ table, thead, tr, th, td {
   border-collapse: collapse;
   text-align: center;
 }
+
+img {
+  witdth: 5em;
+  hieght: 5em;
+}
