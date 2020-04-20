@@ -5,6 +5,7 @@
 
 html, body {
   height:100%;
+  width: 100%;
 }
 
 .center {
@@ -13,6 +14,7 @@ html, body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
 }
 
 table, thead, tr, th, td {
@@ -23,6 +25,6 @@ table, thead, tr, th, td {
 }
 
 img {
-  witdth: 5em;
+  width: 5em;
   hieght: 5em;
 }
