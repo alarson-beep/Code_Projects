@@ -1,0 +1,50 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+html, body {
+  height:100%;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.ctext {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.button {
+  background-color: darkslateblue;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  padding: 2em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.space {
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+.cbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sB {
+  padding-bottom: 1em;
+}
