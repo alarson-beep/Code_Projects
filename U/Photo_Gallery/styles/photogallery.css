@@ -1,0 +1,179 @@
+/*
+
+Designed by Anthony Larson " rougex69@gmail.com"
+
+*/
+
+/* MISC */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,700&display=swap');
+
+html {
+  -ms-overflow-style: none;
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+body {
+	display: flex;
+  flex-direction: column;
+  background-color: #090A0A;
+  margin: 0;
+  font-family: Open Sans;
+  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-size: 10px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  position: relative;
+}
+
+.greyL {
+  color: #a9a9a9;
+}
+
+.whiteL {
+  color: #FFF;
+}
+
+.center {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* END MISC */
+
+
+/* HEADER */
+
+.nav-wrapper {
+  background-color: #151617;
+  padding-right: 4em;
+  width: 100%;
+}
+
+.nav-wrapper li {
+  margin-left: .8em;
+  margin-right: .8em;
+}
+
+/* END HEADER */
+
+/* BODY */
+
+.content-wrapper {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.sidebarL {
+  flex: 1;
+  order: 1;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 10;
+  order: 2;
+}
+
+.mainArticle {
+  padding: 2em 0em 2em 0em;
+}
+
+#Gallery {
+	font-size: 5em;
+	font-family: Open Sans;
+	color: #FFF;
+	text-align: left;
+	text-transform: uppercase;
+	border-bottom: 2px solid grey;
+	padding-bottom: .5em;
+}
+
+#gallery-border {
+	padding-left: 2.5%;
+	width: 33%;
+}
+
+#imgGallery {
+	float: left;
+	padding: 2.5em 0 2.5em 0;
+}
+
+img {
+	width: 30%;
+	margin: 1.1%;
+}
+
+.sidebarR {
+  flex: 1;
+  order: 3;
+}
+
+/* END BODY */
+
+/* FOOTER */
+
+#page-footer {
+  background-color: #151616;
+  flex-direction: column;
+  width: 100%;
+}
+
+#footer {
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-wrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-socialIcons {
+  display: inline;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.socialIcon {
+  font-size: 2rem;
+  padding-left: .3rem;
+  padding-right: .3rem;
+  padding-top: .15rem;
+  padding-bottom: .15rem;
+
+  color: #a9a9a9;
+  border: 2px solid #a9a9a9;
+  border-radius: 25%;
+}
+
+
+#copyright {
+  align-items: center;
+  text-align: center;
+}
+
+#page-copyright {
+  background-color: #151616;
+}
+
+.copyright-font {
+  font-size: 1em;
+}
+
+/* END FOOTER */
