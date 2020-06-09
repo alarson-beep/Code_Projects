@@ -41,7 +41,7 @@ h1 {
 }
 
 body {
-	background: url(https://images.unsplash.com/photo-1523289770562-0f17b2aabdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80);
+	background: linear-gradient( rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0.3)) , url(https://images.unsplash.com/photo-1523289770562-0f17b2aabdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80);
 	background-size: cover;
 	background-position: 0% 50%;
 }
