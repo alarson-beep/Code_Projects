@@ -1,0 +1,85 @@
+/*
+
+Designed by Anthony Larson " rougex69@gmail.com"
+
+*/
+
+
+/* MISC */
+
+html {
+	height: 100vh;
+	width: 100vw;
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+/* END MISC */
+
+
+/* HEADER */
+
+div ul li {
+	font-weight: 700;
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+/* END HEADER */
+
+
+/* BODY */
+
+h1 {
+	font-size: 5em;
+	font-weight: 700;
+}
+
+body {
+	background: url(https://images.unsplash.com/photo-1523289770562-0f17b2aabdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80);
+	background-size: cover;
+	background-position: 0% 50%;
+}
+
+#content {
+	text-align: center;
+	padding-top: 75%;
+	color:#FFF;
+}
+
+hr {
+	border-top: 2px solid #FFF;
+	max-width: 75%;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid grey;
+}
+
+.btn-primary:hover {
+	color:#000;
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+}
+
+.bold {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/* END BODY */
+
+
+/* FOOTER */
+
+
+
+/* END FOOTER */
