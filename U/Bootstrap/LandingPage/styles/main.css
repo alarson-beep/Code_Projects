@@ -58,13 +58,13 @@ hr {
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.btn-primary {
+.btn-light {
 	color: #000;
 	background-color: #FFF;
 	border: 1px solid grey;
 }
 
-.btn-primary:hover {
+.btn-light:hover {
 	color:#000;
 	background-color: lightgrey;
 	border: 1px solid darkgrey;
@@ -73,6 +73,18 @@ hr {
 .bold {
 	font-size: 1.5em;
 	font-weight: bold;
+}
+
+.btn-light:active {
+	color:#000;
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+}
+
+.btn-light:clicked {
+	color:#000;
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
 }
 
 /* END BODY */
